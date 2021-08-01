@@ -30,7 +30,7 @@ The following image illustrates the model that was used with the variables provi
 
 A. Vehicle Length and Ground Clearance were the most significant variables in the dataset with non-random effect on the MechaCar MPG. 
    As indicated by the green arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup>      and 5.21x10<sup>-8</sup>, respectively. 
-   The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
+   The intercept was also statistically significant, indicating that there are likely other factors, not included in the dataset, that have a strong impact on the MPG.
    
 B. The slope of the linear model cannot be considered to be zero, as the p-value of 5.35x10<sup>-11</sup>, indicated by the blue arrow above, is lower than even an extreme          level of significance, and thus the null hypothesis must be rejected. This means that the relationship between the variables and the miles per gallon is subject to more than    random chance.
 
