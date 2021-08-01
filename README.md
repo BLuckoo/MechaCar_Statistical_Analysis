@@ -14,7 +14,7 @@
 
 To determine whether the fuel consumption, MPG, can be predicted using certain variables, a multiple linear regression was applied to the data collected by the production team.
 
-The following image shows the model that was used with the variables provided, i.e.:
+The following image illustrates the model that was used with the variables provided, i.e.:
   - vehicle length
   - vehicle weight
   - spoiler angle
@@ -28,7 +28,7 @@ The following image shows the model that was used with the variables provided, i
 
   ***The results of the model shows the following:***
 
-A. Most significant variables in the dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. 
+A. Vehicle Length and Ground Clearance were the most significant variables in the dataset with non-random effect on the MechaCar MPG. 
    As indicated by the green arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup>      and 5.21x10<sup>-8</sup>, respectively. 
    The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
    
@@ -59,7 +59,7 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 - The standard deviations for Lot 1 and Lot 2 are relatively small - an indication that the data points for these two lots are close to each other.
 - The standard deviation for Lot 3 is relatively higher than the standard deviation for Lot 1 and Lot 2, meaning that the data points for lot 3 are further spread out than Lot 1 and Lot 2.
 - The variances for Lot 1 and Lot 2 are relatively low and within the acceptable level set by the design specfication.
-- However, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi. This is an indication of possible flaws in the production of those suspension coils.
+- However, the variance for Lot 3 is at 170.28 and therefore is well over the acceptable threshold of 100 psi. This is an indication of possible flaws in the production of those suspension coils.
 
 
 ### **3. T-Tests on suspension Coils**
@@ -89,7 +89,7 @@ In this case, the one-sample t-test has been used to assert if there is a statis
 <img width="750" src="https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png">
 </p>
 
-- A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
+- A review of the results of the T-test for the suspension coils for Lot 2 indicates that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
 ***D. Suspension Coils T-Test for Lot 3***
@@ -115,5 +115,5 @@ These metrics and the statistical tests that could be performed are listed in th
 <img width="953" src="https://user-images.githubusercontent.com/82583576/127786116-387d1745-1cbb-49a2-86de-f2027e22df38.png">
 </p>
 
-#### The Data Analysis team looks forward to keep working with the Production teams on the analysis of more data that will help improve the MechaCar prototypes and help commercialise it!
+#### The Data Analysis team looks forward to continue working with the Production teams on the analysis of additional data. This will help to improve the MechaCar prototypes to a successful commercialisation!
 
