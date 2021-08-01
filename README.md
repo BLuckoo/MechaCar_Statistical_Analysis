@@ -22,7 +22,7 @@ The following image shows the model that was used with the variables provided, i
   - all wheel drive (AWD) or not
 
 <p align="center">
-![image](https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png)
+<![image](https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png)>
 </p>
 
 ***The results of the model shows the following:***
