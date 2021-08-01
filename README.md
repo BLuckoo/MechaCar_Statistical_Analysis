@@ -107,7 +107,7 @@ In this case, the one-sample t-test has been used to assert if there is a statis
 
 Consumers take many factors into consideration when evaluating a car to purchase. 
 Some of the metrics that are of interest to a consumer would include cost of ownership, fuel efficiency, carrying capacity and colour options. 
-By getting a good handle on these metrics and making sure that MechaCar satisfies the findings, AutosR'Us can outperforms the competition.
+By getting a good handle on these metrics and making sure that MechaCar satisfies the findings, AutosR'Us can outperform the competition.
 
 These metrics and the statistical tests that could be performed are listed in the table below:
 
