@@ -30,7 +30,7 @@ The following image shows the model that was used with the variables provided, i
    
 2. The slope of the linear model can not be considered to be zero, as the p-value of 5.35x10-11, indicated by the blue arrow above, is lower than even an extreme level of          significance, and thus the null hypothesis must be rejected. This means that the relationship between the variables and the miles per gallon is subject to more than random      chance.
 
-3. This model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the red box, indicates that the        model is 71.5% accurate.
+3. This model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the <font color="red">red</font> box, indicates that the        model is 71.5% accurate.
 
 
 
