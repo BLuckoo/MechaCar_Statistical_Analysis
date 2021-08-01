@@ -22,8 +22,9 @@ The following image shows the model that was used with the variables provided, i
   - all wheel drive (AWD) or not
 
 <p align="center">
-<src="https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png">
 </p>
+
 
   ***The results of the model shows the following:***
 
@@ -40,7 +41,9 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 ***Total Summary Statistics for Suspension Coils PSI***
 
-![image](https://user-images.githubusercontent.com/82583576/127781893-f40c5c87-057c-4307-a604-f8d69a45721b.png)
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127781893-f40c5c87-057c-4307-a604-f8d69a45721b.png">
+</p>
 
 - As per the table above, for the suspension coil's PSI continuous variable, the mean and median are nearly same. This is an indication that the dataset has a normal (symmetric) distribution and it does not have any skewness.
 - A high standard deviation (7.89) indicates that the data points are spread out over a large range of values.
@@ -48,8 +51,9 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 
 ***Summary Statistics for Suspension Coils PSI by Lot***
-
-![image](https://user-images.githubusercontent.com/82583576/127781911-916ce20a-b55c-43fe-a8cf-eaf6725bde9e.png)
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127781911-916ce20a-b55c-43fe-a8cf-eaf6725bde9e.png">
+</p>
 
 - The mean and median for the three lots are all very close, indicating that for each of the lots the dataset does not show any skewness.
 - The standard deviations for Lot 1 and Lot 2 are relatively small - an indication that the data points for these two lots are close to each other.
@@ -64,35 +68,35 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
 
-
-![image](https://user-images.githubusercontent.com/82583576/127782351-2a14ad56-6fb3-4052-8466-910e54f839aa.png)
-
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127782351-2a14ad56-6fb3-4052-8466-910e54f839aa.png">
+</p>
 
 - A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) to reject the null hypothesis. The two means are statistically similar.
 
 
 ***Suspension Coils T-Test for Lot 1***
 
-
-![image](https://user-images.githubusercontent.com/82583576/127783071-a17d067f-575d-438a-9e3f-5daa5150d5c9.png)
-
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127783071-a17d067f-575d-438a-9e3f-5daa5150d5c9.png">
+</p>
 
 - A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis. 
 
 ***Suspension Coils T-Test for Lot 2***
 
-
-![image](https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png)
-
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png">
+</p>
 
 - A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
 ***Suspension Coils T-Test for Lot 3***
 
-
-![image](https://user-images.githubusercontent.com/82583576/127783099-3208c15a-d15d-409a-a996-d7606b3b247c.png)
-
+<p align="center">
+<img width="750" src="https://user-images.githubusercontent.com/82583576/127783099-3208c15a-d15d-409a-a996-d7606b3b247c.png">
+</p>
 
 - 	A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. 
 
