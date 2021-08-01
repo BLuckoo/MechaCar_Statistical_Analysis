@@ -36,9 +36,11 @@ The following image shows the model that was used with the variables provided, i
 
 ![image](https://user-images.githubusercontent.com/82583576/127781893-f40c5c87-057c-4307-a604-f8d69a45721b.png)
 
+The Total Summary data above, shows that the overall PSI variance in under 100 psi and meets specifications.
 
+![image](https://user-images.githubusercontent.com/82583576/127781911-916ce20a-b55c-43fe-a8cf-eaf6725bde9e.png)
 
-
+However, based on the Lot Summary statistics, the variance for Lot 3 is well over the acceptable threshold at 170.28.
 
 
 
