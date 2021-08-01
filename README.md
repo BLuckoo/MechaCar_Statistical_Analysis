@@ -35,25 +35,28 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 **2.  Summary Statistics on suspension Coils**
 
-*Total Summary Statistics for Suspension Coils PSI*
+***Total Summary Statistics for Suspension Coils PSI***
 
 ![image](https://user-images.githubusercontent.com/82583576/127781893-f40c5c87-057c-4307-a604-f8d69a45721b.png)
 
-The Total Summary data above, shows that the overall PSI variance in under 100 psi and meets specifications.
+- As per the table above, for the suspension coil's PSI continuous variable, the mean and median are nearly same. This is an indication that the dataset has a normal (symmetric) distribution and it does not have any skewness.
+- A high standard deviation (7.89) indicates that the data points are spread out over a large range of values.
+- As per the design specifications for the MechaCar suspension coils, the variance must not exceed 100 PSI. As per the above statistics, the variance is about 62 PSI, well below the specified value. Hence the current manufacturing data meets this design specification.
 
 
-*Summary Statistics for Suspension Coils PSI by Lot*
+***Summary Statistics for Suspension Coils PSI by Lot***
 
 ![image](https://user-images.githubusercontent.com/82583576/127781911-916ce20a-b55c-43fe-a8cf-eaf6725bde9e.png)
 
+- The mean and median for the three lots are all very close, indicating that for each of the lots the dataset does not show any skewness.
+- The standard deviations for Lot 1 and Lot 2 are relatively small - an indication that the data points for these two lots are close to each other.
+- The standard deviation for Lot 3 is relatively higher than the standard deviation for Lot 1 and Lot 2, meaning that the data points for lot 3 are further spread out than Lot 1 and Lot 2.
+- The variances for Lot 1 and Lot 2 are relatively low and within the acceptable level set by the design specfication.
+- However, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi. This is an indication of possible flaws in the production of those suspension coils.
 
-However, based on the Lot Summary statistics, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi.
 
 
-•	As per the summary table named "summary_coil", the metrics are: Mean = 1498.78 Median = 1500 Variance = 62.29356 Standard deviation = 7.892627
-•	As per the summary statistics table for the suspension coil's pounds-per-inch continuous variable, the mean and median are nearly same. Hence we can say that the dataset has a normal (symmetric) distribution and it has zero skewness.
-•	A high standard deviation (7.89) indicates that the data points are spread out over a large range of values.
-•	The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below the specified value. Hence the current manufacturing data meet this design specification.
+
 
 
 **3. T-Tests on suspension Coils**
