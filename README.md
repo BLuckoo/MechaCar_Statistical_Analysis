@@ -111,6 +111,7 @@ By getting a good handle on these metrics and making sure that MechaCar satisfie
 
 These metrics and the statistical tests that could be performed are listed in the table below:
 
+![image](https://user-images.githubusercontent.com/82583576/127786116-387d1745-1cbb-49a2-86de-f2027e22df38.png)
 
 
 
