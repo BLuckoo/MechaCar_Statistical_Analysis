@@ -50,6 +50,13 @@ The Total Summary data above, shows that the overall PSI variance in under 100 p
 However, based on the Lot Summary statistics, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi.
 
 
+**3. T-Tests on suspension Coils**
+
+*Suspension Coils Cummulative T-Test*
+
+
+
+
 
 
 
