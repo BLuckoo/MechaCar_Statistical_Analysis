@@ -10,7 +10,7 @@
 
 ### **Results of Analyses**
 
-**1.  Linear Regression to predict MPG**
+### **1.  Linear Regression to predict MPG**
 
 To determine whether the fuel consumption, MPG, can be predicted using certain variables, a multiple linear regression was applied to the data collected by the production team.
 
@@ -34,7 +34,7 @@ B. The slope of the linear model cannot be considered to be zero, as the p-value
 C. This model does predict the MPG of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the red box, indicates that the        model is 71.5% accurate.
 
 
-**2.  Summary Statistics on suspension Coils**
+### **2.  Summary Statistics on suspension Coils**
 
 ***Total Summary Statistics for Suspension Coils PSI***
 
@@ -56,9 +56,7 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 - However, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi. This is an indication of possible flaws in the production of those suspension coils.
 
 
-
-
-**3. T-Tests on suspension Coils**
+### **3. T-Tests on suspension Coils**
 
 *Suspension Coils Cummulative T-Test*
 
@@ -90,7 +88,7 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 - This lot may be need to be discarded, or at least more closely evaluated.
 
-**4. Study Design: MechaCar vs Competition**
+### **4. Study Design: MechaCar vs Competition**
 
 - There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
 
