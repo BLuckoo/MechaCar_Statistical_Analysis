@@ -21,9 +21,11 @@ The following image shows the model that was used with the variables provided, i
   - ground clearance
   - all wheel drive (AWD) or not
 
-<![image](https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png)>
+<p align="center">
+<src="https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png">
+</p>
 
-***The results of the model shows the following:***
+  ***The results of the model shows the following:***
 
 A. Most significant variables in the dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. 
    As indicated by the green arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup>      and 5.21x10<sup>-8</sup>, respectively. 
