@@ -21,9 +21,7 @@ The following image shows the model that was used with the variables provided, i
   - ground clearance
   - all wheel drive (AWD) or not
 
-<p align="center">
 <![image](https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png)>
-</p>
 
 ***The results of the model shows the following:***
 A. Most significant variables in the dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. 
@@ -43,12 +41,13 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 The Total Summary data above, shows that the overall PSI variance in under 100 psi and meets specifications.
 
+
 *Summary Statistics for Suspension Coils PSI by Lot*
 
 ![image](https://user-images.githubusercontent.com/82583576/127781911-916ce20a-b55c-43fe-a8cf-eaf6725bde9e.png)
 
 
-However, based on the Lot Summary statistics, the variance for Lot 3 is well over the acceptable threshold at 170.28.
+However, based on the Lot Summary statistics, the variance for Lot 3 is at 170.28 and hence is well over the acceptable threshold of 100 psi.
 
 
 
