@@ -58,7 +58,7 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 ### **3. T-Tests on suspension Coils**
 
-*Suspension Coils Cummulative T-Test*
+***Suspension Coils Cummulative T-Test***
 
 In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
 
@@ -69,7 +69,7 @@ In this case, the one-sample t-test has been used to assert if there is a statis
 - A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) to reject the null hypothesis. The two means are statistically similar.
 
 
-*Suspension Coils T-Test for Lot 1*
+***Suspension Coils T-Test for Lot 1***
 
 
 ![image](https://user-images.githubusercontent.com/82583576/127783071-a17d067f-575d-438a-9e3f-5daa5150d5c9.png)
@@ -77,7 +77,7 @@ In this case, the one-sample t-test has been used to assert if there is a statis
 
 - A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis. 
 
-*Suspension Coils T-Test for Lot 2*
+***Suspension Coils T-Test for Lot 2***
 
 
 ![image](https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png)
@@ -86,7 +86,7 @@ In this case, the one-sample t-test has been used to assert if there is a statis
 - A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
-*Suspension Coils T-Test for Lot 3*
+***Suspension Coils T-Test for Lot 3***
 
 
 ![image](https://user-images.githubusercontent.com/82583576/127783099-3208c15a-d15d-409a-a996-d7606b3b247c.png)
