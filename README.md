@@ -24,6 +24,7 @@ The following image shows the model that was used with the variables provided, i
 <![image](https://user-images.githubusercontent.com/82583576/127779743-8f62e66d-5be6-4527-9ed5-d9841feb52a4.png)>
 
 ***The results of the model shows the following:***
+
 A. Most significant variables in the dataset which show a non-random effect on the MPG of the MechaCar are the Vehicle Length and the Ground Clearance. 
    As indicated by the green arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup>      and 5.21x10<sup>-8</sup>, respectively. 
    The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
@@ -102,22 +103,5 @@ Null and Alternate Hypothesis
 - Fuel efficiency: Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Fuel efficient vehicles require less gas to go a given distance.Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. In the United States, fuel efficiency is expressed as "miles per gallon" (mpg).The question is whether the mpg of MechaCars is better than other competitors or not.Hence we can use ANOVA tests for this purpose which is used to compare the means of a continuous numerical variable across a number of groups. A one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle class).For conducting this test, mpg data of all the concerned manufacturers are required. The null hypotheses is that the means of mpg of all groups are equal.And the alternate hypotheses is that at least one of the means is different from all other groups.
 - Cost: The long-term cost of owning a car is considerably more than the actual price we pay for it. Ownership cost includes depreciation, fuel, maintenance, repairs, and insurance. The largest of these costs is depreciation - the loss in value over time. The question here is that the cost of MechaCars is less than or equal to that of other manufacturers. To compare the cost of various manufacturers we need to perform ANOVA test in which we need to have mainly cost and fuel efficiency data of all the concerned manufacturers. For this the null hypotheses will be that the means of costs of all groups are equal. And the alternate hypotheses is that at least one of the means is different from all other groups. The same test can be performed for reliability of cars between various car manufacturers.
 - Color options also play an important role for customers in car selection. According to a survey, Silver and black round out the top three color choices and medium/dark gray advanced 5% last year to take fifth place.Picking the right color of the car also has a brand name attached to it. The question here is that which color or colors are most opted by the customers of MechaCars. To perform the comparison of color options between various colors we need to do the statisticle analysis using the Chi-Squared Test which is mainly used for categorical variables. The chi-squared test is used to compare the distribution of frequencies across two groups. The null hypotheses is there is no difference in frequency distribution between both groups(purchase frequency of two different colors).The alternate hypotheses is there is a difference in frequency distribution between both groups. For conducting this test, we need to have the purchasing frequency data of various color options of MechaCars cars.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
