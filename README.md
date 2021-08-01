@@ -63,42 +63,49 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 ![image](https://user-images.githubusercontent.com/82583576/127782351-2a14ad56-6fb3-4052-8466-910e54f839aa.png)
 
-•	A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null 
+- A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) to reject the null hypothesis.
+- In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
+- Assuming the significance level of 0.05 percent, the p-value (0.06028) is above our significance level. The data is considered to have normal distribution.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
 
 *Suspension Coils T-Test for Lot 1*
 
 ![image](https://user-images.githubusercontent.com/82583576/127783071-a17d067f-575d-438a-9e3f-5daa5150d5c9.png)
 
-•	A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis. 
+- A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis. 
 
 *Suspension Coils T-Test for Lot 2*
 
 ![image](https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png)
 
-•	A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
+- A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
 *Suspension Coils T-Test for Lot 3*
 
+![image](https://user-images.githubusercontent.com/82583576/127783099-3208c15a-d15d-409a-a996-d7606b3b247c.png)
 
-•	A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+- 	A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. 
 
-•	In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
-•	Assuming the significance level of 0.05 percent, the p-value (0.06028) is above our significance level. The data is considered to have normal distribution.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+- This lot may be need to be discarded, or at least more closely evaluated.
 
-•	The metrics which would be of interest to a consumer are the fuel efficiency, cost of ownership, color options, reliability etc. By tackling these metrics wisely, MechaCar can outperforms the competition.
-•	Fuel efficiency: Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Fuel efficient vehicles require less gas to go a given distance.Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. In the United States, fuel efficiency is expressed as "miles per gallon" (mpg).The question is whether the mpg of MechaCars is better than other competitors or not.Hence we can use ANOVA tests for this purpose which is used to compare the means of a continuous numerical variable across a number of groups. A one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle class).For conducting this test, mpg data of all the concerned manufacturers are required. The null hypotheses is that the means of mpg of all groups are equal.And the alternate hypotheses is that at least one of the means is different from all other groups.
-•	Cost: The long-term cost of owning a car is considerably more than the actual price we pay for it. Ownership cost includes depreciation, fuel, maintenance, repairs, and insurance. The largest of these costs is depreciation - the loss in value over time. The question here is that the cost of MechaCars is less than or equal to that of other manufacturers. To compare the cost of various manufacturers we need to perform ANOVA test in which we need to have mainly cost and fuel efficiency data of all the concerned manufacturers. For this the null hypotheses will be that the means of costs of all groups are equal. And the alternate hypotheses is that at least one of the means is different from all other groups. The same test can be performed for reliability of cars between various car manufacturers.
-•	Color options also play an important role for customers in car selection. According to a survey, Silver and black round out the top three color choices and medium/dark gray advanced 5% last year to take fifth place.Picking the right color of the car also has a brand name attached to it. The question here is that which color or colors are most opted by the customers of MechaCars. To perform the comparison of color options between various colors we need to do the statisticle analysis using the Chi-Squared Test which is mainly used for categorical variables. The chi-squared test is used to compare the distribution of frequencies across two groups. The null hypotheses is there is no difference in frequency distribution between both groups(purchase frequency of two different colors).The alternate hypotheses is there is a difference in frequency distribution between both groups. For conducting this test, we need to have the purchasing frequency data of various color options of MechaCars cars.
+**4. Study Design: MechaCar vs Competition**
 
+- There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
 
-
-Study Design: MechaCar vs Competition
-There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
-Metric to test
-To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
+- Metric to test
+  - To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
 Null and Alternate Hypothesis
-H0: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class Ha: MechaCar prototypes' average carrying capacity is statistically above or below that of competitor vehicles.
+  - H0: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class Ha: MechaCar prototypes' average carrying capacity is         statistically above or below that of competitor vehicles.
+
+- The metrics which would be of interest to a consumer are the fuel efficiency, cost of ownership, color options, reliability etc. By tackling these metrics wisely, MechaCar can outperforms the competition.
+- Fuel efficiency: Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Fuel efficient vehicles require less gas to go a given distance.Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. In the United States, fuel efficiency is expressed as "miles per gallon" (mpg).The question is whether the mpg of MechaCars is better than other competitors or not.Hence we can use ANOVA tests for this purpose which is used to compare the means of a continuous numerical variable across a number of groups. A one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle class).For conducting this test, mpg data of all the concerned manufacturers are required. The null hypotheses is that the means of mpg of all groups are equal.And the alternate hypotheses is that at least one of the means is different from all other groups.
+- Cost: The long-term cost of owning a car is considerably more than the actual price we pay for it. Ownership cost includes depreciation, fuel, maintenance, repairs, and insurance. The largest of these costs is depreciation - the loss in value over time. The question here is that the cost of MechaCars is less than or equal to that of other manufacturers. To compare the cost of various manufacturers we need to perform ANOVA test in which we need to have mainly cost and fuel efficiency data of all the concerned manufacturers. For this the null hypotheses will be that the means of costs of all groups are equal. And the alternate hypotheses is that at least one of the means is different from all other groups. The same test can be performed for reliability of cars between various car manufacturers.
+- Color options also play an important role for customers in car selection. According to a survey, Silver and black round out the top three color choices and medium/dark gray advanced 5% last year to take fifth place.Picking the right color of the car also has a brand name attached to it. The question here is that which color or colors are most opted by the customers of MechaCars. To perform the comparison of color options between various colors we need to do the statisticle analysis using the Chi-Squared Test which is mainly used for categorical variables. The chi-squared test is used to compare the distribution of frequencies across two groups. The null hypotheses is there is no difference in frequency distribution between both groups(purchase frequency of two different colors).The alternate hypotheses is there is a difference in frequency distribution between both groups. For conducting this test, we need to have the purchasing frequency data of various color options of MechaCars cars.
+
+
+
+
 
 
 
