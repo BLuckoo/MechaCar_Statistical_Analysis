@@ -35,6 +35,9 @@ The following image shows the model that was used with the variables provided, i
 **2.  Create Visualizations for the Trip Analysis**
 
 
+![image](https://user-images.githubusercontent.com/82583576/127780636-c1129dd3-e297-44c5-be6d-5b8a09c9093f.png)
+
+
 
 
 
