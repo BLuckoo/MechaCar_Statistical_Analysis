@@ -3,9 +3,9 @@
 ### **Overview of Project:**
 
 **To help AutosRUs' manufacturing team with the newest prototype, MechaCar, the following statistical analysis has been performed on data collected by the production team:**
-- Multiple linear regression analysis to identify which variables in the dataset predict the miles per gallon (MPG) of the MechaCar prototypes;
+- Multiple linear regression analysis to identify which variables in the dataset can be used to predict the miles per gallon (MPG) of the MechaCar prototypes;
 - Collection of summary statistics on the pounds per inch of the suspension coils from the manufacturing lots;
-- Run t-tests to determine if the manufacturing lots are statistically different from the mean population;
+- Run T-Tests to determine if the manufacturing lots are statistically different from the mean population;
 - Design a statistical study to compare performance of the MechaCar against vehicles from other manufacturers.
 
 ### **Results of Analyses**
@@ -60,33 +60,42 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 *Suspension Coils Cummulative T-Test*
 
+In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
+
+
 ![image](https://user-images.githubusercontent.com/82583576/127782351-2a14ad56-6fb3-4052-8466-910e54f839aa.png)
 
-- A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) to reject the null hypothesis.
-- In this case, the one-sample t-test has been used to assert if there is a statistical difference between the means of a sample dataset (suspension coil's pound-per-inch) and hypothesized, potential population dataset. The mean of the hypothesized, potential population dataset is given as 1,500 pounds per inch.
-- Assuming the significance level of 0.05 percent, the p-value (0.06028) is above our significance level. The data is considered to have normal distribution.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+- A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) to reject the null hypothesis. The two means are statistically similar.
 
 
 *Suspension Coils T-Test for Lot 1*
 
+
 ![image](https://user-images.githubusercontent.com/82583576/127783071-a17d067f-575d-438a-9e3f-5daa5150d5c9.png)
+
 
 - A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis. 
 
 *Suspension Coils T-Test for Lot 2*
 
+
 ![image](https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png)
+
 
 - A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) to reject the null hypothesis.
 
 
 *Suspension Coils T-Test for Lot 3*
 
+
 ![image](https://user-images.githubusercontent.com/82583576/127783099-3208c15a-d15d-409a-a996-d7606b3b247c.png)
+
 
 - 	A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) to reject the null hypothesis. 
 
 - This lot may be need to be discarded, or at least more closely evaluated.
+
 
 ### **4. Study Design: MechaCar vs Competition**
 
