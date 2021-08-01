@@ -115,4 +115,5 @@ These metrics and the statistical tests that could be performed are listed in th
 <img width="953" src="https://user-images.githubusercontent.com/82583576/127786116-387d1745-1cbb-49a2-86de-f2027e22df38.png">
 </p>
 
+### The Data Analysis team looks forward to keep working with the Production teams on the analysis of more data that will help improve the MechaCar prototypes and help commercialise it!
 
