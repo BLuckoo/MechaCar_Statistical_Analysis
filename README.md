@@ -32,7 +32,7 @@ The following image shows the model that was used with the variables provided, i
 
 3. This model does predict the MPG of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the red box, indicates that the        model is 71.5% accurate.
 
-**2.  Create Visualizations for the Trip Analysis**
+**2.  Summary Statistics on suspension Coils**
 
 ![image](https://user-images.githubusercontent.com/82583576/127781893-f40c5c87-057c-4307-a604-f8d69a45721b.png)
 
