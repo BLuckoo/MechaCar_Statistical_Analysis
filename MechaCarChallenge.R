@@ -1,3 +1,5 @@
+# Add dplyr library
+library(dplyr)
 #-------------------------------------------------------------------------------
 # Module 15 Challenge - MechaCar - D1 - Linear Regression
 #
@@ -15,10 +17,10 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 MechaCarcoil_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
 #
 #Get a total summary dataframe that has the mean, median, variance & std deviation for each manufacturing lot
-total_summary <- MechaCarcoil_table %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI)) 
+total_summary <- MechaCarcoil_table %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI)) 
 #
 #Create a lot summary dataframe that has the mean, median, variance & standard deviation for each manufacturing lot
-lot_summary <- MechaCarcoil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI))
+lot_summary <- MechaCarcoil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 #
 #
 #-------------------------------------------------------------------------------
