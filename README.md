@@ -73,11 +73,13 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 *Suspension Coils T-Test for Lot 2*
 
+![image](https://user-images.githubusercontent.com/82583576/127783084-548a02e4-2142-457e-a951-d89a9471a716.png)
 
 •	A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
 
 
 *Suspension Coils T-Test for Lot 3*
+
 
 •	A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 
