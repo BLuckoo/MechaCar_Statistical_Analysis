@@ -57,8 +57,6 @@ C. This model does predict the MPG of the MechaCar prototype with some relative 
 
 
 
-
-
 **3. T-Tests on suspension Coils**
 
 *Suspension Coils Cummulative T-Test*
